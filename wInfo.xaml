@@ -1,0 +1,13 @@
+﻿<Window x:Class="Mecanismos_II__RRRR_.wInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mecanismos_II__RRRR_"
+        mc:Ignorable="d"
+        Title="wInfo" Height="764.618" Width="969.779">
+    <Window.Background>
+        <ImageBrush ImageSource="Acerca de.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid/>
+</Window>

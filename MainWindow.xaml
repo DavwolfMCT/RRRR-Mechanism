@@ -1,0 +1,39 @@
+﻿<Window x:Class="Mecanismos_II__RRRR_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mecanismos_II__RRRR_"
+        mc:Ignorable="d"
+        Title="MECANISMOS II (RRRR)" Height="633.758" Width="758.236">
+    <Window.Background>
+        <ImageBrush ImageSource="Principal.jpg" Stretch="Uniform"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Menu HorizontalAlignment="Left" Height="27" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Background="#36454f" Foreground="White">
+            <MenuItem Header="Archivo" Background="#36454f" >
+                <MenuItem x:Name="menuSalir" Header="Salir" Click="menuSalir_click" Foreground="White" Background="#36454f"/>
+            </MenuItem>
+            <MenuItem Header="Mecanismo 4b" Background="#36454f">
+                <MenuItem x:Name="menuAgregar" Header="Crear" Click="menuAgregar_click" Foreground="White" Background="#36454f"/>
+
+            </MenuItem >
+            <MenuItem Header="Animacion" Background="#36454f">
+                <MenuItem x:Name="animacion" Header="Doble Manivela" Click="menuAnimacion_click" Foreground="White" Background="#36454f"/>
+                <MenuItem x:Name="animacion2" Header="Manivela - Balancín"  Foreground="White" Background="#36454f" Click="animacion2_Click"/>
+                <MenuItem x:Name="animacion3" Header="Doble balancín" Foreground="White" Background="#36454f" Click="animacion3_Click"/>
+                <MenuItem x:Name="animacion4" Header="Punto de cambio"  Foreground="White" Background="#36454f" Click="animacion4_Click"/>
+                <MenuItem x:Name="animacion5" Header="Triple balancín" Foreground="White" Background="#36454f" Click="animacion5_Click"/>
+            </MenuItem>
+            <MenuItem Header="Acerca de" Background="#36454f">
+                <MenuItem Header="Ayuda" Click="MenuItem_Click" Background="#36454f" Foreground="White"/>
+                <MenuItem x:Name="info" Header="Info"  Background="#36454f" Foreground="White" Click="info_Click"/>
+
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
